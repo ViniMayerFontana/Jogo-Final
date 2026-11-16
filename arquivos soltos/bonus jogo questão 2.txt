@@ -1,0 +1,9 @@
+Rumo ao Trabalho Final (não vale nota)
+As funções desta prática são versões em printf das que vocês vão escrever no Trabalho Final. Se
+sobrar tempo, ou em casa com a dupla:
+• Escreva void legenda(void), que imprime o significado de cada símbolo do mapa (# parede, P
+jogador, C cristal, S saída etc.).
+• Escreva void telaFinal(int resultado, int cristais, int turnos), que imprime VITORIA,
+DERROTA ou DESISTENCIA (resultado igual a 1, 2 ou 3) e o resumo da partida.
+• No enunciado do Trabalho Final, encontre as funções que não retornam valor (desenharJogo,
+moverJogador, . . . ) e escreva, para cada uma, o que ela recebe e o que faz.

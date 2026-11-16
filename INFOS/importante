@@ -1,0 +1,29 @@
+para rodar comandos de compilação, instalar o terminal UBUNTU (WSL) no vscode
+
+gcc -std=c11 -Wall -Wextra -o jogo *.c -lncurses
+Esse é o comando para compilar. Certifique-se de que o diretório tá dentro da pasta src
+
+
+INSTALAÇÂO UBUNTU
+Verifique se o Ubuntu já está instalado no seu PC:
+Abra um terminal PowerShell normal no Windows e rode:
+
+wsl -l -v
+
+Se aparecer Ubuntu na lista: rode 
+wsl --set-default Ubuntu 
+
+(para tornar ele o padrão.)
+
+Se NÃO aparecer Ubuntu (só aparecer docker-desktop e docker-desktop-data): significa que o Ubuntu ainda não está instalado. Instale-o com:
+
+PowerShell
+wsl --install -d Ubuntu
+
+(Espere baixar e crie seu nome de usuário e senha na janela do Ubuntu que vai abrir).
+(acesso do vini. Usuario: vini Senha: vini2007)
+
+Abra o VS Code na distro certa:
+Depois de garantir que o Ubuntu está instalado e definido como padrão, aperte 
+Ctrl + Shift + P 
+no VS Code, escolha WSL: Connect to WSL using Distro... e clique em Ubuntu.
